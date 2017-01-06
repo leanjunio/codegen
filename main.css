@@ -1,0 +1,87 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+.btnd:active,
+.btnd:focus,
+.btnd.active {
+  background-image: none;
+  outline: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.quoteBox  {
+  border-radius: 15px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  width: 600px;
+  height: 270px;
+  margin-top: 300px;
+  margin-left: 300px;
+  border-style: solid;
+}
+
+.buttons  {
+  color: #333;
+  border-style: none;  
+}
+
+.twitter  {
+  background-color: #8fc693;
+  color: white;
+  border-style: none;
+  border-radius: 50%;
+  
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+
+.texts  {
+  font-family: 'Montserrat', sans-serif;
+  height: 200px;
+  width: auto;
+  border-style: none;
+}
+
+.quote-text  {
+  border-style: none;
+  font-size: 22px;
+}
+
+#new-quote  {
+  background-color: #8fc693;
+  color: white;
+  border-style: none;
+  border-radius: 50%;
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+.twitter:hover {
+  background-color: #78adc2;
+  color: white;
+  border-style: none;
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+  padding: auto;
+}
+#new-quote:hover  {
+  background-color: #78adc2;
+  color: white;
+  border-style: none;
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+  padding: auto;
+}
