@@ -1,26 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+
+<html>
 <head>
-  <title>TCP Random Quote Generator</title>
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="main.css">
-  <script type="text/javascript" src="main.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.4.min.js"></script>
+	<!--Import Google Icon Font-->
+	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"><!--Import materialize.css-->
+	<link href="css/materialize.min.css" media="screen,projection" rel="stylesheet" type="text/css"><!--Let browser know website is optimized for mobile-->
+	<link href="css/main.css" rel="stylesheet">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+	<title>Quote Generator</title>
 </head>
+
 <body>
-  <div class="container" id="theBox">
-    <div class="container">
-      <div class="quoteBox" id="quoteBox">
-        <div class="texts">
-          <p class="quote-text"></p>
-          <p class="author-Name"></p>
-        </div>
-        <div class="buttons">
-          <button class="button" id="new-quote"><i class="fa fa-refresh fa-lg"></i></button> <a class="twitter-share-button" data-size="large" href="https://twitter.com/intent/tweet" target="_blank"><button class="button twitter"><i class="fa fa-twitter fa-lg"></i></button></a>
-        </div>
-      </div>
-    </div>
-  </div>
+
+	<!--Add a small container box in the middle-->
+	<div class="centered">
+		<div class="centered small-box">
+			<div class="quote-box">
+				<p class="quote-container"></p>
+			</div>
+			<div class="row ">
+				<div class="buttons-box left">
+					<a class="btn-floating btn-small new-quote"><i class="tiny material-icons">repeat</i></a>
+				</div>
+				<div class="author-box right">
+					<h4 class="author-container"></h4>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--Import jQuery before materialize.js-->
+	<script src="https://code.jquery.com/jquery-2.1.1.min.js" type="text/javascript"></script>
+	<script src="js/materialize.min.js" type="text/javascript"></script>
+	<script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
